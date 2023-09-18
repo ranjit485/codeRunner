@@ -28,6 +28,7 @@ public class MainWindow extends JFrame implements ActionListener {
         menuShortcut =new MenuShortcut(KeyEvent.VK_X);
         mn =new Menu("File");
         mb = new MenuBar();
+        //
         m1 =new MenuItem("New");
         m2 =new MenuItem("Open");
         m3 =new MenuItem("Save As");
